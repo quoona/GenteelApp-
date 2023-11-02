@@ -20,7 +20,6 @@ import 'package:google_fonts/google_fonts.dart';
 
 class OnBoardScreen extends StatefulWidget {
   const OnBoardScreen({super.key});
-
   @override
   State<OnBoardScreen> createState() => _OnBoardScreenState();
 }

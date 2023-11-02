@@ -16,6 +16,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:genteel_app/onboard/on_board.dart';
+import 'package:genteel_app/signin/sign_in_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +35,8 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
-        home: OnBoardScreen(),
+        // home: OnBoardScreen(),
+        home: SignInScreen(),
       ),
     );
   }
